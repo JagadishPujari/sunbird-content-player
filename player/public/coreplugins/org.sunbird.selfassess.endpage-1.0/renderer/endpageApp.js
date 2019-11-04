@@ -1,9 +1,9 @@
-var endPage = angular.module("sunbird-summary-endpage",[]);
+var endPage = angular.module("sunbird-endpage",[]);
 endPage.controller("endPageController", function($scope, $rootScope, $state,$element, $stateParams) {
     var globalConfig = EkstepRendererAPI.getGlobalConfig();
     $scope.showEndPage = false;
     $rootScope.pageId = "sunbird-player-Endpage";
-    $scope.pluginManifest = {"id": "org.sunbird.player.endpage", "ver": "1.0"};
+    $scope.pluginManifest = {"id": "org.sunbird.selfassess.endpage", "ver": "1.0"};
     $scope.genieIcon;
     $scope.endpageBackground;
     $scope.replayIcon;
@@ -203,4 +203,3 @@ endPage.controller("endPageController", function($scope, $rootScope, $state,$ele
     };
      
 });
-//# sourceURL=summaryEndpage.js

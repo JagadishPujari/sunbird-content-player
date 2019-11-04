@@ -12,6 +12,30 @@
     "responseCode": "OK",
     "result": {
         "content": [
+            {
+            "identifier": "org.ekstep.summary.endpage",
+            "mimeType": "application/vnd.ekstep.ecml-archive",
+            "contentData": {
+                "questionnaire": null,
+                "appIcon": "stories/pratham-camal/logo.png",
+                "subject": "literacy_v2",
+                "description": "pratham-camal",
+                "name": "Jags QS",
+                "downloadUrl": "",
+                "checksum": null,
+                "loadingMessage": "Without requirements or design, programming is the art of adding bugs to an empty text file. ...",
+                "concepts": [{
+                    "identifier": "LO1",
+                    "name": "Receptive Vocabulary",
+                    "objectType": "Concept"
+                }],
+                "identifier": "org.ekstep.summary.endpage",
+                "grayScaleAppIcon": null,
+                "pkgVersion": 1
+            },
+            "isAvailable": true,
+            "path": "fixture-stories/question-set"
+        },
             {"identifier": "do_312719162116210688118940",
                 "mimeType": "video/mp4",
                 "contentData":

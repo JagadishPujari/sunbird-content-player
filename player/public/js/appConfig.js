@@ -98,6 +98,10 @@ AppConfig = {
 		id: "org.ekstep.userswitcher",
 		ver: 1.0,
 		type: "plugin"
+	},{
+		id: "org.sunbird.selfassess.endpage",
+		ver: 1.0,
+		type: "plugin"
 	}],
 	overlay: {
 		enableUserSwitcher: true,
@@ -118,7 +122,7 @@ AppConfig = {
 		bgImage: "assets/icons/background_1.png",
 		webLink: "https://www.ekstep.in"
 	},
-	showEndPage: true,
+	showEndPage: false,
 	env: "contentplayer",
 	pdata: { "id": "in.ekstep", "ver": "1.0", "pid": "contentplayer" },
 	channel: "in.ekstep",
